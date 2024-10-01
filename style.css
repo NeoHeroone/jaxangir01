@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  border-radius: 15px;
+}
+.navv {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 34%;
+  right: -15%;
+}
+.default {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 200px;
+}
+.relativ {
+  padding: 20px 15px;
+  background-color: yellowgreen;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  position: relative;
+
+
+  bottom: 50;
+  left: 85px;
+
+}
+.gol {
+  background-color: burlywood;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-top: 100px;
+}
+.absolute {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+}
+.top {
+  background-color: black;
+  color: white;
+  position: fixed;
+  right: 15px;
+  bottom: 50px;
+}
